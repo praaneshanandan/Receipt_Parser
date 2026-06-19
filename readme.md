@@ -259,10 +259,10 @@ Handle diverse receipt formats:
 
 The pipeline logs performance metrics for each phase:
 
-- **OCR Layer**: ~2-4 seconds (depends on image resolution)
-- **Base LLM Pass**: ~1-2 seconds (Qwen2.5 inference)
+- **OCR Layer**: ~4-6 seconds (depends on image resolution)
+- **Base LLM Pass**: ~5-8 seconds (Qwen2.5 inference)
 - **Reflection Pass**: ~1-1.5 seconds (if validation fails)
-- **Total Roundtrip**: ~4-7 seconds (end-to-end)
+- **Total Roundtrip**: ~8-15 seconds (end-to-end)
 
 **GPU acceleration** significantly reduces OCR latency. CPU-only mode will be 3-5x slower.
 
@@ -345,6 +345,6 @@ ai-receipt-parser/
 ---
 
 
-## 👤 Author
+## Author
 
 praanesh v a 
