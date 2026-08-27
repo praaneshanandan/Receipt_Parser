@@ -298,7 +298,6 @@ ai-receipt-parser/
 │   ├── vite.config.ts         # Vite configuration
 │   └── tsconfig.json          # TypeScript configuration
 │
-├── audit.py                    # (Utility script - for audit logic testing)
 └── readme.md                   # This file
 ```
 
@@ -345,6 +344,6 @@ ai-receipt-parser/
 ---
 
 
-## Author
+## 👤 Author
 
 praanesh v a 
